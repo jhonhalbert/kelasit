@@ -3,7 +3,7 @@ const path = require("path");
 
 //main page/Kelas IT/
 const app = express();
-const rute = path.join(__dirname);
+const rute = path.join(__dirname,"/");
 app.use(express.static(rute));
 //app.use("/2021",express.static(rute+"assets/images/2021"));
 
